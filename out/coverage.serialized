@@ -1,0 +1,93 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/home/heath/git/fridge-inventory/Src/Entities/Barcodes/UpcABarcode.php' => 
+  array (
+    12 => 
+    array (
+      0 => 'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testUpcABarcodeCreationIsSuccessful',
+      1 => 'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testGetUpcABarcodeNumber',
+      2 => 'FridgeInventory\\Tests\\Entities\\ItemTest::testCreationOfItem',
+    ),
+    13 => 
+    array (
+      0 => 'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testUpcABarcodeCreationIsSuccessful',
+      1 => 'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testGetUpcABarcodeNumber',
+      2 => 'FridgeInventory\\Tests\\Entities\\ItemTest::testCreationOfItem',
+    ),
+    17 => 
+    array (
+      0 => 'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testGetUpcABarcodeNumber',
+    ),
+    18 => NULL,
+  ),
+  '/home/heath/git/fridge-inventory/Src/Entities/Barcodes/BarcodeInterface.php' => 
+  array (
+  ),
+  '/home/heath/git/fridge-inventory/Src/Entities/ItemInterface.php' => 
+  array (
+  ),
+  '/home/heath/git/fridge-inventory/Src/Entities/Item.php' => 
+  array (
+    27 => 
+    array (
+      0 => 'FridgeInventory\\Tests\\Entities\\ItemTest::testCreationOfItem',
+    ),
+    28 => 
+    array (
+      0 => 'FridgeInventory\\Tests\\Entities\\ItemTest::testCreationOfItem',
+    ),
+    32 => 
+    array (
+    ),
+    33 => 
+    array (
+    ),
+  ),
+  '/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/Fridge.php' => 
+  array (
+    14 => 
+    array (
+    ),
+    22 => 
+    array (
+    ),
+  ),
+  '/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/TemperatureRegulatorInterface.php' => 
+  array (
+  ),
+));
+$coverage->setTests(array (
+  'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testUpcABarcodeCreationIsSuccessful' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'FridgeInventory\\Tests\\Entities\\UpcABarcodeTest::testGetUpcABarcodeNumber' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'FridgeInventory\\Tests\\Entities\\ItemTest::testCreationOfItem' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'FridgeInventory\\Tests\\Entities\\TemperatureRegulators\\FridgeTest::testSuccessfullyAbleToCreateFridge' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/home/heath/git/fridge-inventory/Src/Entities/Barcodes/BarcodeInterface.php' => true,
+  '/home/heath/git/fridge-inventory/Src/Entities/Barcodes/UpcABarcode.php' => true,
+  '/home/heath/git/fridge-inventory/Src/Entities/Item.php' => true,
+  '/home/heath/git/fridge-inventory/Src/Entities/ItemInterface.php' => true,
+  '/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/Fridge.php' => true,
+  '/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/TemperatureRegulatorInterface.php' => true,
+));
+
+return $coverage;

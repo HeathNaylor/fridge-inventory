@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1526951196">
+  <project timestamp="1526951196">
+    <file name="/home/heath/git/fridge-inventory/Src/Entities/Barcodes/BarcodeInterface.php">
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="FridgeInventory\Entities\Barcodes">
+      <file name="/home/heath/git/fridge-inventory/Src/Entities/Barcodes/UpcABarcode.php">
+        <class name="FridgeInventory\Entities\Barcodes\UpcABarcode" namespace="FridgeInventory\Entities\Barcodes">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+        </class>
+        <line num="10" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="12" type="stmt" count="3"/>
+        <line num="13" type="stmt" count="3"/>
+        <line num="15" type="method" name="getNumber" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="17" type="stmt" count="1"/>
+        <metrics loc="18" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </file>
+    </package>
+    <package name="FridgeInventory\Entities">
+      <file name="/home/heath/git/fridge-inventory/Src/Entities/Item.php">
+        <class name="FridgeInventory\Entities\Item" namespace="FridgeInventory\Entities">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="3"/>
+        </class>
+        <line num="25" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="30" type="method" name="getBarcode" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <metrics loc="33" ncloc="24" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="3"/>
+      </file>
+    </package>
+    <file name="/home/heath/git/fridge-inventory/Src/Entities/ItemInterface.php">
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="FridgeInventory\Entities\TemperatureRegulators">
+      <file name="/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/Fridge.php">
+        <class name="FridgeInventory\Entities\TemperatureRegulators\Fridge" namespace="FridgeInventory\Entities\TemperatureRegulators">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="11" type="method" name="addItem" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="14" type="stmt" count="0"/>
+        <line num="19" type="method" name="inventory" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="22" type="stmt" count="0"/>
+        <metrics loc="22" ncloc="15" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/heath/git/fridge-inventory/Src/Entities/TemperatureRegulators/TemperatureRegulatorInterface.php">
+      <metrics loc="15" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="6" loc="110" ncloc="91" classes="3" methods="6" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="5" elements="15" coveredelements="8"/>
+  </project>
+</coverage>

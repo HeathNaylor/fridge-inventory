@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Entity Test Suite" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.008417">
+    <testsuite name="FridgeInventory\Tests\Entities\UpcABarcodeTest" file="/home/heath/git/fridge-inventory/Tests/Entities/Barcodes/UpcABarcodeTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.004716">
+      <testcase name="testUpcABarcodeCreationIsSuccessful" class="FridgeInventory\Tests\Entities\UpcABarcodeTest" classname="FridgeInventory.Tests.Entities.UpcABarcodeTest" file="/home/heath/git/fridge-inventory/Tests/Entities/Barcodes/UpcABarcodeTest.php" line="10" assertions="1" time="0.003639"/>
+      <testcase name="testGetUpcABarcodeNumber" class="FridgeInventory\Tests\Entities\UpcABarcodeTest" classname="FridgeInventory.Tests.Entities.UpcABarcodeTest" file="/home/heath/git/fridge-inventory/Tests/Entities/Barcodes/UpcABarcodeTest.php" line="16" assertions="1" time="0.001077"/>
+    </testsuite>
+    <testsuite name="FridgeInventory\Tests\Entities\ItemTest" file="/home/heath/git/fridge-inventory/Tests/Entities/ItemTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.002172">
+      <testcase name="testCreationOfItem" class="FridgeInventory\Tests\Entities\ItemTest" classname="FridgeInventory.Tests.Entities.ItemTest" file="/home/heath/git/fridge-inventory/Tests/Entities/ItemTest.php" line="11" assertions="1" time="0.002172"/>
+    </testsuite>
+    <testsuite name="FridgeInventory\Tests\Entities\TemperatureRegulators\FridgeTest" file="/home/heath/git/fridge-inventory/Tests/Entities/TemperatureRegulators/FridgeTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.001529">
+      <testcase name="testSuccessfullyAbleToCreateFridge" class="FridgeInventory\Tests\Entities\TemperatureRegulators\FridgeTest" classname="FridgeInventory.Tests.Entities.TemperatureRegulators.FridgeTest" file="/home/heath/git/fridge-inventory/Tests/Entities/TemperatureRegulators/FridgeTest.php" line="11" assertions="1" time="0.001529"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

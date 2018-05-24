@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<crap_result>
+  <project/>
+  <timestamp>2018-05-22 01:06:36</timestamp>
+  <stats>
+    <name>Method Crap Stats</name>
+    <methodCount>6</methodCount>
+    <crapMethodCount>0</crapMethodCount>
+    <crapLoad>0</crapLoad>
+    <totalCrap>9</totalCrap>
+    <crapMethodPercent>0</crapMethodPercent>
+  </stats>
+  <methods>
+    <method>
+      <package>FridgeInventory\Entities\Barcodes</package>
+      <className>FridgeInventory\Entities\Barcodes\UpcABarcode</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(string $barcode)</methodSignature>
+      <fullMethod>__construct(string $barcode)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>FridgeInventory\Entities\Barcodes</package>
+      <className>FridgeInventory\Entities\Barcodes\UpcABarcode</className>
+      <methodName>getNumber</methodName>
+      <methodSignature>getNumber(): string</methodSignature>
+      <fullMethod>getNumber(): string</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>FridgeInventory\Entities</package>
+      <className>FridgeInventory\Entities\Item</className>
+      <methodName>__construct</methodName>
+      <methodSignature>__construct(BarcodeInterface $barcode)</methodSignature>
+      <fullMethod>__construct(BarcodeInterface $barcode)</fullMethod>
+      <crap>1</crap>
+      <complexity>1</complexity>
+      <coverage>100</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>FridgeInventory\Entities</package>
+      <className>FridgeInventory\Entities\Item</className>
+      <methodName>getBarcode</methodName>
+      <methodSignature>getBarcode()</methodSignature>
+      <fullMethod>getBarcode()</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>FridgeInventory\Entities\TemperatureRegulators</package>
+      <className>FridgeInventory\Entities\TemperatureRegulators\Fridge</className>
+      <methodName>addItem</methodName>
+      <methodSignature>addItem(ItemInterface $item)</methodSignature>
+      <fullMethod>addItem(ItemInterface $item)</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+    <method>
+      <package>FridgeInventory\Entities\TemperatureRegulators</package>
+      <className>FridgeInventory\Entities\TemperatureRegulators\Fridge</className>
+      <methodName>inventory</methodName>
+      <methodSignature>inventory(): array</methodSignature>
+      <fullMethod>inventory(): array</fullMethod>
+      <crap>2</crap>
+      <complexity>1</complexity>
+      <coverage>0</coverage>
+      <crapLoad>0</crapLoad>
+    </method>
+  </methods>
+</crap_result>

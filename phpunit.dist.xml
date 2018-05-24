@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/6.3/phpunit.xsd"
+         bootstrap="Tests/BaseTest.php"
+         backupGlobals="false"
+         verbose="true"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+>
+    <testsuites>
+        <testsuite name="Entity Test Suite">
+            <directory>./Tests/Entities</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./Src</directory>
+            <exclude>
+                <directory suffix=".php">./vendor</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./out/coverage" highLowerBound="90" lowUpperBound="25"/>
+        <log type="coverage-clover" target="./out/clover.xml"/>
+        <log type="coverage-crap4j" target="./out/crap4j.xml"/>
+        <log type="coverage-php" target="./out/coverage.serialized"/>
+        <log type="junit" target="./out/junit.xml" logIncompleteSkipped="false"/>
+    </logging>
+</phpunit>
